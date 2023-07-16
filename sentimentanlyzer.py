@@ -1,6 +1,8 @@
 import streamlit as st
-from ntypesclassification import classify_text
+from ntypesclassification import train_model, classify_text
 
+# Load the model
+vectorizer, model, embeddings, cluster_labels, cluster_types = train_model('dataaaa.csv')
 # Streamlit app
 def main():
     st.title('Text Category Detection')
