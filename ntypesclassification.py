@@ -190,7 +190,6 @@
       "metadata": {
         "id": "TU9UoqeGQjxY"
       },
-      "execution_count": null,
       "outputs": []
     }
   ]
