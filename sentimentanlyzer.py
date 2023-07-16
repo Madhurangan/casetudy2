@@ -1,8 +1,5 @@
 import streamlit as st
-from ntypesclassification import train_model, classify_text
-
-# Load the model
-vectorizer, model, embeddings, cluster_labels, cluster_types = train_model('dataaaa.csv')
+from ntypesclassification import classify_text
 
 # Streamlit app
 def main():
